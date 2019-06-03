@@ -1,5 +1,7 @@
 # Cryptocurrency Calculator
 
+The DEMO was deployed on Heroku. LINK: https://msq-test.herokuapp.com/
+
 This is a simple cryptocurrency calculator.
 
 Stack: React, Redux, Redux-Saga, Axios.
@@ -7,6 +9,8 @@ Stack: React, Redux, Redux-Saga, Axios.
 For converting cryptocurrencies I use Coinmarketcap API
 
 Because of API limitation and CORS issue, I written a little proxy server on Express.
+
+Frontend part is stored in folder `react/`
 
 ----
 ## Installation

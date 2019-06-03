@@ -17,7 +17,7 @@ const composeEnhancers = composeWithDevTools({ serialize: true });
 
 const rootReducer = combineReducers({
   exchangeData: getCurrencyExchangeReducer,
-  toastr: toastrReducer
+  toastr: toastrReducer // For nice user-friendly notifications
 });
 
 const store = createStore(rootReducer, composeEnhancers(applyMiddleware(sagaMiddleware)));

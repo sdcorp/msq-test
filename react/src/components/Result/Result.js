@@ -17,7 +17,7 @@ class Result extends Component {
     } = this.props;
     getCurrencyExchangeTriggered({ crypto: selectedCrypto, currency: selectedCurrency });
   }
-
+  // TODO Need validate input for only numbers
   handleInputChange = e => this.setState({ inputValue: e.target.value });
 
   handleCurrencyChange = currency => {
