@@ -6,7 +6,7 @@ Stack: React, Redux, Redux-Saga, Axios.
 
 For converting cryptocurrencies I use Coinmarketcap API
 
-Because of API limitation and CORS issue, I written little bit proxy server on Express.
+Because of API limitation and CORS issue, I written a little proxy server on Express.
 
 ----
 ## Installation

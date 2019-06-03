@@ -1,0 +1,28 @@
+{
+  "name": "msq-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "proxy-server.js",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix react",
+    "start": "npm run server",
+    "build" : "cd react/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "server": "node proxy-server.js",
+    "server:dev": "nodemon proxy-server.js",
+    "client": "npm start --prefix react",
+    "client:build": "npm run build --prefix react",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "custom-env": "^1.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.1"
+  }
+}

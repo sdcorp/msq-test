@@ -1,0 +1,15 @@
+.price_list {
+  margin-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  li {
+    color: #7fadf0;
+    display: flex;
+  }
+}
+
+.currency {
+  font-weight: bold;
+  min-width: 3em;
+}
